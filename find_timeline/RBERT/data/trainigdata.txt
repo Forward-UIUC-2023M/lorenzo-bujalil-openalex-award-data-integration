@@ -1,0 +1,49 @@
+Author-Organization(e1,e2)	<e1> Luis Gravano </e1> is a Professor of Computer Science at <e2> Columbia University </e2>
+Author-Organization(e1,e2)	<e1> Luis Gravano </e1> is a professor in the Computer Science department at <e2> Columbia University </e2>
+Author-Organization(e1,e2)	<e1> Luis Gravano </e1> is Principal Investigator in <e2> Computer Science Department </e2>
+Author-Organization(e1,e2)	<e1> Jiawei Han </e1> is a professor in the Computer Science department at <e2> University Of Illinois at Urbana - Champaign </e2>
+Author-Organization(e1,e2)	<e1> Jiawei Han </e1> are Professors in the Department of Computer Science, <e2> University of Illinois at Urbana Champaign </e2>
+Author-Organization(e1,e2)	<e1> Kevin Chang </e1> is a professor in the Computer Science department at <e2> University Of Illinois at Urbana - Champaign </e2>
+Author-Organization(e1,e2)	<e1> Kevin Chang </e1> received a BS from <e2> National Taiwan University </e2> and PhD from Stanford University, in Electrical Engineering
+Author-Organization(e1,e2)	<e1> Kevin Chang </e1> received a BS from National Taiwan University and PhD from <e2> Stanford University </e2> , in Electrical Engineering
+Author-Organization(e1,e2)	<e1> Tarek Abdelzaher </e1>, Jiawei Han are Professors in the Department of Computer Science, <e2> University of Illinois at Urbana Champaign </e2>
+Author-Organization(e1,e2)	<e1> Yoshua Bengio </e1> is a Professor in the Computer Science and Operational Research Department of <e2> Université de Montréal </e2>
+Author-Organization(e1,e2)	<e1> Yoshua Bengio </e1> is currently action editor for the Journal of Machine Learning Research, editor for <e2> Foundations </e2>
+Author-Organization(e1,e2)	<e1> Andrew Zisserman </e1> is the Professor of Computer Vision Engineering at <e2> Oxford </e2> and a Royal Society Research
+Author-Organization(e1,e2)	<e1> Andrew Zisserman </e1> is the Professor of Computer Vision Engineering at Oxford and a <e2> Royal Society Research </e2>
+Author-Organization(e1,e2)	<e1> Andrew Zisserman </e1> is a Principal Researcher at <e2> the Visual Geometry Group </e2>
+Author-Organization(e1,e2)	<e1> Andrew Zisserman </e1> is a British computer scientist and a professor at <e2> the University of Oxford </e2>
+Author-Organization(e1,e2)	<e1> Andrew Zisserman </e1> leads the Visual Geometry Group at <e2> the University of Oxford </e2> , UK
+Author-Organization(e1,e2)	<e1> Andrew Zisserman </e1> graduated from <e2> the University of Cambridge </e2> with a degree in theoretical physics and Part III mathematics
+Author-Organization(e1,e2)	<e1> Sebastian Thrun </e1>, an German computer scientits, robotics developer, research professor at Stanford University, and CEO of <e2> Udacity </e2>
+Author-Organization(e1,e2)	<e1> Sebastian Thrun </e1>, an German computer scientits, robotics developer, research professor at <e2> Stanford University </e2> , and CEO of Udacity
+Author-Organization(e1,e2)	<e1> Trevor Darrell </e1> received the SM and PhD degrees from <e2> MIT </e2> , in 1992 and 1996, respectively
+Author-Organization(e1,e2)	<e1> Trevor Darrell </e1> has 2 current jobs as Professor, Division of Computer Science/EECS at <e2> University of California Berkeley </e2> and Chief Scientist at Grabango
+Author-Organization(e1,e2)	<e1> Trevor Darrell </e1> has 2 current jobs as Professor, Division of Computer Science/EECS at University of California Berkeley and Chief Scientist at <e2> Grabango </e2>
+Author-Organization(e1,e2)	<e1> Jitendra Malik </e1> is a professor in the Computer Science department at <e2> University of California Berkeley </e2>
+Author-Organization(e1,e2)	<e1> Ian Foster </e1> is Senior Scientist and Distinguished Fellow, and also director of the Data Science and Learning Division, at <e2> Argonne National Laboratory </e2>
+Author-Organization(e1,e2)	<e1> Christos Faloutsos </e1>) is a Greek computer scientist and a professor at <e2> Carnegie Mellon University </e2>
+Author-Organization(e1,e2)	<e1> Christos Faloutsos </e1> is a Professor at <e2> Carnegie Mellon University </e2>
+Author-Organization(e1,e2)	<e1> Xiaoou Tang </e1> is a professor with the Department of Information Engineering, <e2> The Chinese University of Hong Kong </e2>
+Author-Organization(e1,e2)	<e1> Xiaoou Tang </e1> received the B.S. degree from the <e2> University of Science and Technology of China </e2>, Hefei, in 1990
+Author-Organization(e1,e2)	<e1> Lei Zhang </e1> received the B.S. degree from <e2> Shenyang Institute of Aeronautical </e2>
+Author-Organization(e1,e2)	<e1> Lei Zhang </e1> is the Chair Professor at <e2> The Hong Kong Polytechnic University </e2>
+Author-Organization(e1,e2)	<e1> Rama Chellappa </e1> , a Bloomberg Distinguished Professor in electrical and computer engineering and biomedical engineering and chief scientist at the <e2> Johns Hopkins University </e2>
+Author-Organization(e1,e2)	<e1> Rama Chellappa </e1> is the Chief Scientist of The <e2> Johns Hopkins University </e2>
+Author-Organization(e1,e2)	<e1> Dawn Song </e1> is a Professor in the Department of Electrical Engineering and Computer Science at <e2> UC Berkeley </e2>
+Author-Organization(e1,e2)	<e1> Dawn Song </e1> is a Chinese American academic and is a professor at the <e2> University of California, Berkeley </e2>
+Author-Organization(e1,e2)	<e1> Shuicheng Yan </e1> is chief scientist of <e2> Qihoo/360 company </e2>, and also the Dean's Chair Associate Professor at National University of Singapore
+Author-Organization(e1,e2)	<e1> Shuicheng Yan </e1> is chief scientist of Qihoo/360 company, and also the Dean's Chair Associate Professor at <e2> National University of Singapore </e2>
+Author-Organization(e1,e2)	<e1> Shuicheng Yan </e1> is currently an Associate Professor in the Department of Electrical and Computer Engineering at <e2> National University of Singapore </e2>
+Author-Organization(e1,e2)	<e1> Deborah Estrin </e1> is a Professor of Computer Science at Cornell Tech in New York City where she founded <e2> the Jacobs Institute's </e2>
+Author-Organization(e1,e2)	<e1> Deborah Estrin </e1> is a Professor of Computer Science at <e2> Cornell Tech </e2> in New York City where she founded the Jacobs Institute's
+Author-Organization(e1,e2)	<e1> Deborah Estrin </e1> (born December 6, 1959) is a Professor of Computer Science at <e2> Cornell Tech </e2>
+Author-Organization(e1,e2)	<e1> Deborah Estrin </e1> is co-founder of the non-profit <e2> Open mHealth </e2>
+Author-Organization(e1,e2)	<e1> Dan Boneh </e1> is an Israeli-American professor in applied cryptography and computer security at <e2> Stanford University </e2>
+Author-Organization(e1,e2)	<e1> Dan Boneh </e1> is a professor of computer science at <e2> Stanford University </e2>, where he heads the applied cryptography group
+Author-Organization(e1,e2)	<e1> Dan Boneh </e1> heads the applied cryptography group at the Computer Science department at <e2> Stanford University </e2>
+Author-Organization(e1,e2)	<e1> Dan Boneh </e1> heads the <e2> applied cryptography group </e2> at the Computer Science department at Stanford University
+Author-Organization(e1,e2)	<e1> Ming-Hsuan Yang </e1> is a Professor in Electrical Engineering and Computer Science at <e2> University of California, Merced </e2>
+Author-Organization(e1,e2)	<e1> Ion Stoica </e1> joined <e2> Berkeley </e2> in 2001
+Author-Organization(e1,e2)	<e1> Ion Stoica </e1> is a Professor in the EECS Department at the <e2> University of California at Berkeley </e2> , and the Director of RISELab
+Author-Organization(e1,e2)	<e1> Ben Shneiderman </e1> (born August 21, 1947) is an American computer scientist, a Distinguished University Professor in the <e2> University of Maryland </e2>

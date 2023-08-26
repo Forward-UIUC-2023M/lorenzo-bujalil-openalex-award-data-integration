@@ -1,0 +1,185 @@
+name,recipient,match 1,match 2,match 3,match 4,match 5
+"(""caroline o'flaherty buckee"", 'HARVARD SCHOOL OF PUBLIC HEALTH')",,,,,
+"('jay c buckey', 'DARTMOUTH COLLEGE')","['Jay C Buckey', 'Dartmouth College']","['Jay C Buckey', 'Dartmouth–Hitchcock Medical Center']","['J C Buckey', 'Dartmouth–Hitchcock Medical Center']","['J C Buckey', 'The University of Texas at Dallas']","['J C Buckey', 'University of Texas Health Science Center at Dallas']"
+"('robert walter buckheit', 'IMQUEST BIOSCIENCES')","['Robert W Buckheit', 'Southern Research Institute']","['Robert W Buckheit', 'International Commission on Missing Persons']","['Robert W Buckheit', 'Duke University']","['Robert W Buckheit', 'University of Michigan–Ann Arbor']","['Robert W Buckheit', 'ImQuest BioSciences (United States)']"
+"('bruce a buckingham ', 'STANFORD UNIVERSITY')","['Bruce A Buckingham', 'University of Nottingham']","['Bruce A Buckingham', 'University of Colorado Boulder']","['Bruce A Buckingham', 'Durham University']","['Bruce A Buckingham', 'VA Palo Alto Health Care System']","['Bruce A Buckingham', 'University of California System']"
+"(' linda a dimeglio ', 'STANFORD UNIVERSITY')","['Linda A Dimeglio', 'University of South Florida']","['Linda A Dimeglio', 'University of Florida']","['Linda A DiMeglio', 'Emory University']","['Linda A DiMeglio', 'Riley Hospital for Children']","['Linda A DiMeglio', 'Indiana Clinical and Translational Sciences Institute']"
+"(' kimberly driscoll ', 'STANFORD UNIVERSITY')","['Kimberly A Driscoll', 'University of Florida Health']","['Kimberly A Driscoll', 'University of Florida']","['Kimberly A Driscoll', 'University of Colorado Denver']",,
+"(' korey k hood ', 'STANFORD UNIVERSITY')",,,,,
+"(' robert slover', 'STANFORD UNIVERSITY')","['Robert Slover', 'Harvard University']","['Robert S Slover', 'University of Illinois at Chicago']","['Robert H Slover', 'University of Colorado Anschutz Medical Campus']","['Robert H Slover', 'University of Colorado Denver']","['Robert J Slover', 'University of Colorado Anschutz Medical Campus']"
+"('andrew john buckler', 'ELUCID')","['Andrew J Buckler', 'Elucid Bioimaging']",,,,
+"('david buckley', 'XENOTECH, LLC')","['David Buckley', 'University of Vermont']","['David Buckley', 'University of Southern California']","['David Buckley', 'Sydney South West Area Health Service']","['David Buckley', 'Memorial University of Newfoundland']","['David Buckley', 'University of Liverpool']"
+"('mark raymond buckley', 'UNIVERSITY OF ROCHESTER')","['Mark  R Buckley', 'University of Rochester']","['Mark R Buckley', 'International Commission on Missing Persons']","['Mark R Buckley', 'University of Rochester Medical Center']","['Mark R Buckley', 'University of Rochester']","['Margaret Buckley', 'University of Miami']"
+"('paul s buckmaster', 'STANFORD UNIVERSITY')","['Paul S Buckmaster', 'Stanford University']",,,,
+"('jane hoyt buckner', 'BENAROYA RESEARCH INST AT VIRGINIA MASON')","['Janet A Buckner', 'University of Tennessee at Knoxville']",,,,
+"('randy l buckner', 'MASSACHUSETTS GENERAL HOSPITAL')","['Randy L Buckner', 'Howard Hughes Medical Institute']","['Randy L Buckner', 'Harvard University']","['Randy L Buckner', 'Washington University in St. Louis']","['Randy L Buckner', 'Massachusetts General Hospital']","['Randy L Buckner', 'Athinoula A. Martinos Center for Biomedical Imaging']"
+"('randy l buckner', 'UNIVERSITY OF ROCHESTER')","['Randy L Buckner', 'Howard Hughes Medical Institute']","['Randy L Buckner', 'Harvard University']","['Randy L Buckner', 'Washington University in St. Louis']","['Randy L Buckner', 'Massachusetts General Hospital']","['Randy L Buckner', 'Athinoula A. Martinos Center for Biomedical Imaging']"
+"('alan r buckpitt ', 'EICOSIS, LLC')","['Alan R Buckpitt', 'University of Indianapolis']","['Alan R Buckpitt', 'Faculty of Public Health']","['Alan R Buckpitt', 'University of California, Davis']",,
+"(' bruce d hammock', 'EICOSIS, LLC')","['Bruce D Hammock', 'University of Rome Tor Vergata']","['Bruce D Hammock', 'North Carolina State University']","['Bruce D Hammock', 'International Commission on Missing Persons']","['Bruce D Hammock', 'Institute of Entomology']","['Bruce D Hammock', 'University of California, Davis']"
+"('joseph a buckwalter', 'UNIVERSITY OF IOWA')","['Joseph A Buckwalter', 'University of Iowa']","['Joseph A Buckwalter', 'Iowa State University']","['Joseph A Buckwalter', 'New York Medical College']","['Joseph A Buckwalter', 'University of Iowa Hospitals and Clinics']","['Joseph A Buckwalter V', 'University of Iowa Hospitals and Clinics']"
+"('marion s buckwalter', 'STANFORD UNIVERSITY')","['Marion S Buckwalter', 'Neurosciences Institute']","['Marion S Buckwalter', 'Stanford Medicine']","['Marion S Buckwalter', 'Stanford University']",,
+"('ralph c budd', 'UNIVERSITY OF VERMONT & ST AGRIC COLLEGE')",,,,,
+"('philip budge', 'WASHINGTON UNIVERSITY')","['Philip Budgell', 'University of Oxford']",,,,
+"('gr scott budinger', 'NORTHWESTERN UNIVERSITY AT CHICAGO')","['Gr Scott Budinger', 'Pulmonary Associates']","['G R Scott Budinger', 'Northwestern University']","['GRScott Budinger', 'Loyola University Chicago']",,
+"('alan jeffrey budney', 'DARTMOUTH COLLEGE')","['Alan J Budney', 'Dartmouth College']","['Alan J Budney', 'International Commission on Missing Persons']","['Alan J Budney', 'Behavioral Tech']",,
+"('vivian g budnik', 'UNIV OF MASSACHUSETTS MED SCH WORCESTER')",,,,,
+"('irina budunova', 'NORTHWESTERN UNIVERSITY AT CHICAGO')","['Irina Budunova', 'Northwestern University']",,,,
+"('irina budunova ', 'NORTHWESTERN UNIVERSITY AT CHICAGO')","['Irina Budunova', 'Northwestern University']",,,,
+"(' joel thomas dudley', 'NORTHWESTERN UNIVERSITY AT CHICAGO')",,,,,
+"('evgeny alexander budygin', 'WAKE FOREST UNIVERSITY HEALTH SCIENCES')","['Evgeny A Budygin', 'Sirius University of Science and Technology']","['Evgeny Budygin', 'Wake Forest Baptist Medical Center']",,,
+"('brian buechel', 'HARVARD MEDICAL SCHOOL')","['Berno Buechel', 'University of Fribourg']","['Berno Buechel', 'Saarland University']",,,
+"('benjamin m buehrer ', 'ZEN-BIO, INC.')","['Benjamin M Buehrer', 'Research Triangle Park Foundation']",,,,
+"(' sarah a compton', 'ZEN-BIO, INC.')","['Sarah A Compton', 'University of North Carolina at Chapel Hill']","['Sarah A Compton', 'Research Triangle Park Foundation']","['Sarah A Compton', 'Curl Bio (United States)']","['Sarah A Compton', 'Virginia Commonwealth University Medical Center']","['Sarah Compton', 'Medical University of South Carolina']"
+"('hannes erich buelow', 'ALBERT EINSTEIN COLLEGE OF MEDICINE, INC')",,,,,
+"('donald g buerk', 'MEDVAS CONCEPTS, LLC')","['Donald G Buerk', 'St. Vincent Charity Hospital']","['Donald G Buerk', 'Northwestern University']","['Donald G Buerk', 'Drexel University']","['Donald G Buerk', 'Louisiana Tech University']",
+"('cathrin m buetefisch', 'EMORY UNIVERSITY')","['Cathrin M Buetefisch', 'Emory University']","['Cathrin Buetefisch', 'National Institute of Neurological Disorders and Stroke']","['Catherine Buetefisch', 'West Virginia University']",,
+"('cathrin m buetefisch ', 'EMORY UNIVERSITY')","['Cathrin M Buetefisch', 'Emory University']","['Cathrin Buetefisch', 'National Institute of Neurological Disorders and Stroke']","['Catherine Buetefisch', 'West Virginia University']",,
+"(' shan p. yu', 'EMORY UNIVERSITY')",,,,,
+"('christoph buettner', 'ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI')","['Christoph Buettner', 'Rutgers, The State University of New Jersey']","['Christoph Buettner', ""Brigham and Women's Hospital""]","['Christoph Buettner', 'Albert Einstein College of Medicine']","['Christoph Buettner', 'Mount Sinai Hospital']","['Christoph Buettner', 'Harvard University']"
+"('elizabeth a buffalo', 'UNIVERSITY OF WASHINGTON')","['Elizabeth A Buffalo', 'University of Washington']","['Elizabeth Buffalo', 'University of Washington']",,,
+"('sara j bufferd', 'CALIFORNIA STATE UNIVERSITY SAN MARCOS')","['Sara J Bufferd', 'University of Louisville']","['Sara J Bufferd', 'California State University, San Marcos']","['Sara J Bufferd', 'University of Louisville Hospital']",,
+"('sean michael bugel', 'OREGON STATE UNIVERSITY')",,,,,
+"('thomas h bugge', 'NATIONAL INSTITUTE OF DENTAL & CRANIOFACIAL RESEARCH')","['Thomas H Bugge', ""Cincinnati Children's Hospital Medical Center""]","['Thomas H Bugge', 'National Institutes of Health']","['Thomas H Bugge', 'Washington University in St. Louis']","['Thomas H Bugge', 'Copenhagen University Hospital']","['Thomas H Bugge', 'Hospital Research Foundation']"
+"('leann marie buhrow', 'UT SOUTHWESTERN MEDICAL CENTER')",,,,,
+"('mona buhusi', 'UTAH STATE UNIVERSITY')","['Mona Buhusi', 'Utah State University']",,,,
+"('alex bui', 'UNIVERSITY OF CALIFORNIA LOS ANGELES')",,,,,
+"('alex bui ', 'UNIVERSITY OF CALIFORNIA LOS ANGELES')",,,,,
+"(' gary duckwiler', 'UNIVERSITY OF CALIFORNIA LOS ANGELES')","['Gary Duckwiler', 'University of California, Los Angeles']","['Gary Duckwiler', 'UCLA Health']","['Gary Duckwiler', 'Ronald Reagan UCLA Medical Center']","['Gary Duckwiler', 'UCLA Medical Center']",
+"('lorraine r buis', 'UNIVERSITY OF MICHIGAN AT ANN ARBOR')","['Lorraine R Buis', 'University of Michigan–Ann Arbor']",,,,
+"('w m bujalowski', 'UNIVERSITY OF TEXAS MED BR GALVESTON')",,,,,
+"('anna bukiya', 'UNIVERSITY OF TENNESSEE HEALTH SCI CTR')","['Anna Bukiya', 'University of Tennessee Health Science Center']",,,,
+"('alexander bukreyev', 'UNIVERSITY OF TEXAS MED BR GALVESTON')","['Alexander Bukreyev', 'Galveston College']","['Alexander Bukreyev', 'Texas Medical Board']","['Alexander Bukreyev', 'The University of Texas Medical Branch at Galveston']","['Alexey Bukreyev', 'University of Colorado Colorado Springs']","['Aleksey V Bukreyev', 'Federal Scientific Agroengineering Center VIM']"
+"('alexander bukreyev', 'GEORGIA STATE UNIVERSITY')","['Alexander Bukreyev', 'Galveston College']","['Alexander Bukreyev', 'Texas Medical Board']","['Alexander Bukreyev', 'The University of Texas Medical Branch at Galveston']","['Alexey Bukreyev', 'University of Colorado Colorado Springs']","['Aleksey V Bukreyev', 'Federal Scientific Agroengineering Center VIM']"
+"('michael ilya bukrinsky', 'GEORGE WASHINGTON UNIVERSITY')","['Michael Ilya Bukrinsky', 'George Washington University']",,,,
+"('michael ilya bukrinsky ', 'GEORGE WASHINGTON UNIVERSITY')","['Michael Ilya Bukrinsky', 'George Washington University']",,,,
+"(' dmitri sviridov', 'GEORGE WASHINGTON UNIVERSITY')","['Dmitri Sviridov', 'Baker IDI Heart and Diabetes Institute']","['Dmitri Sviridov', 'Monash University']","['Dmitriy Sviridov', 'All-Russian Scientific Research Institute of Refrigeration Industry']","['Dimitri Sviridov', 'Baker IDI Heart and Diabetes Institute']","['Dmitry V Sviridov', 'Belarusian State University']"
+"('karen bulaklak', 'UNIV OF NORTH CAROLINA CHAPEL HILL')","['Karen Bulaklak', 'University of North Carolina at Chapel Hill']","['Karen Bulaklak', 'Duke University']",,,
+"('michael d bulger', 'UNIVERSITY OF ROCHESTER')",,,,,
+"('cynthia m bulik', 'UNIV OF NORTH CAROLINA CHAPEL HILL')","['Cynthia M Bulik', 'University of Notre Dame']","['Cynthia M Bulik', 'University of North Carolina at Chapel Hill']","['Cynthia M Bulik', 'University of Geneva']","['Cynthia M Bulik', 'Aarhus University']","['Cynthia M Bulik', 'Karolinska Institute']"
+"('cynthia m bulik ', 'UNIV OF NORTH CAROLINA CHAPEL HILL')","['Cynthia M Bulik', 'University of Notre Dame']","['Cynthia M Bulik', 'University of North Carolina at Chapel Hill']","['Cynthia M Bulik', 'University of Geneva']","['Cynthia M Bulik', 'Aarhus University']","['Cynthia M Bulik', 'Karolinska Institute']"
+"(' donald h baucom', 'UNIV OF NORTH CAROLINA CHAPEL HILL')","['Donald H Baucom', 'University of North Carolina at Chapel Hill']","['Donald H Baucom', 'Texas Tech University']","['Donald H Baucom', 'Duke University']","['Donald H Baucom', 'University of Washington']","['Donald H Baucom', 'University of Maryland, College Park']"
+"('jeannette chloe bulinski ', 'COLUMBIA UNIV NEW YORK MORNINGSIDE')","['Jeannette Chloe Bulinski', 'Tokyo Institute of Technology']","['Jeanette Chloe Bulinski', 'Columbia University']","['Jeannette Chloë Bulinski', 'Columbia University']","['Jeannette Chlö Bulinski', 'University of California, Los Angeles']",
+"(' elizabeth a. miller', 'COLUMBIA UNIV NEW YORK MORNINGSIDE')",,,,,
+"('james j. bull ', 'UNIVERSITY OF TEXAS AT AUSTIN')",,,,,
+"(' ian j molineux', 'UNIVERSITY OF TEXAS AT AUSTIN')","['Ian J Molineux', 'Massachusetts Institute of Technology']","['Ian J Molineux', 'The University of Texas at Austin']",,,
+"('joseph l bull', 'UNIVERSITY OF MICHIGAN AT ANN ARBOR')",,,,,
+"('laura n bull ', 'UNIVERSITY OF CALIFORNIA, SAN FRANCISCO')",,,,,
+"(' richard john thompson', 'UNIVERSITY OF CALIFORNIA, SAN FRANCISCO')",,,,,
+"('marta bull', ""SEATTLE CHILDREN'S HOSPITAL"")",,,,,
+"('todd m bull', 'UNIVERSITY OF COLORADO DENVER')","['Todd M Bull', 'University of Colorado Cancer Center']","['Todd M Bull', 'University of Colorado Anschutz Medical Campus']","['Todd M Bull', 'University of Colorado Denver']",,
+"('szofia s bullain', 'UNIVERSITY OF CALIFORNIA-IRVINE')","['Szofia S Bullain', 'Roche (Switzerland)']","['Szofia S Bullain', 'Genentech']","['Szofia S Bullain', 'University of California, Irvine']",,
+"('james m bullard', 'UNIVERSITY OF TEXAS RIO GRANDE VALLEY')","['James M Bullard', 'University of Denver']","['James M Bullard', 'The University of Texas Rio Grande Valley']",,,
+"('david b buller', 'KLEIN BUENDEL, INC.')","['David B Buller', 'Texas Tech University']","['David B Buller', 'International Commission on Missing Persons']","['David B Buller', 'University of Arizona']","['David B Buller', 'University of Melbourne']","['David B Buller', 'University of New Mexico']"
+"('carol j bult', 'JACKSON LABORATORY')","['Carol J Bult', 'Jackson Laboratory']","['Carl J Bult', 'Jackson Laboratory']",,,
+"('jeff w bulte', 'JOHNS HOPKINS UNIVERSITY')",,,,,
+"('jeff w bulte', 'HUGO W. MOSER RES INST KENNEDY KRIEGER')",,,,,
+"('philip l bulterys', 'UNIVERSITY OF CALIFORNIA LOS ANGELES')","['Philip L Bulterys', 'Stanford University']",,,,
+"('martha l bulyk', ""BRIGHAM AND WOMEN'S HOSPITAL"")","['Martha  L  Bulyk', ""Brigham and Women's Hospital""]","['Martha L Bulyk', ""Brigham and Women's Hospital""]",,,
+"('matthew p buman ', 'ARIZONA STATE UNIVERSITY-TEMPE CAMPUS')","['Matthew P Buman', ""Boston Children's Hospital""]","['Matthew P Buman', 'Arizona State University']","['Matthew P Buman', 'Shaanxi Normal University']",,
+"(' peter d reaven', 'ARIZONA STATE UNIVERSITY-TEMPE CAMPUS')","['Peter D Reaven', 'University of Arizona']","['Peter D Reaven', 'University of California System']","['Peter D Reaven', 'University of California, San Diego']","['Peter D Reaven', 'Phoenix VA Health Care System']","['Peter D Reaven', 'Carl T. Hayden Veterans Affairs Medical Center']"
+"(' megan elise petrov', 'ARIZONA STATE UNIVERSITY-TEMPE CAMPUS')",,,,,
+"('ginny l bumgardner', 'OHIO STATE UNIVERSITY')","['Ginny L Bumgardner', 'University of Minnesota']","['Ginny L Bumgardner', 'Beth Israel Deaconess Medical Center']","['Ginny L Bumgardner', 'John Radcliffe Hospital']","['Ginny L Bumgardner', 'The Ohio State University Wexner Medical Center']","['Ginny L Bumgardner', 'The Ohio State University']"
+"('joel d bumgardner', 'UNIVERSITY OF MEMPHIS')","['Joel D Bumgardner', 'Umeå University']","['Joel D Bumgardner', 'University of Memphis']","['Joel D Bumgardner', 'Mississippi State University']",,
+"('roger e bumgarner', 'FRED HUTCHINSON CANCER RESEARCH CENTER')","['Roger E Bumgarner', 'University of Idaho']","['Roger E Bumgarner', 'University of Washington']","['Roger E Bumgarner', 'University of Washington Medical Center']","['Roger Bumgarner', 'Cape Town HVTN Immunology Laboratory / Hutchinson Centre Research Institute of South Africa']","['Roger Bumgarner', 'North Carolina State University']"
+"('namandje n bumpus', 'JOHNS HOPKINS UNIVERSITY')","['Namandje N Bumpus', 'Johns Hopkins Medicine']","['Namandje Bumpus', 'Scripps Health']","['Namandje Bumpus', 'Johns Hopkins University']","['Namandjé N Bumpus', 'Scripps Research Institute']","['Namandjé N Bumpus', 'University of Michigan–Ann Arbor']"
+"('david nelson bunck', 'CALIFORNIA INSTITUTE OF TECHNOLOGY')","['David N Bunck', 'California Institute of Technology']",,,,
+"('david thomas bundy', 'UNIVERSITY OF KANSAS MEDICAL CENTER')","['David T Bundy', 'University of Kansas Medical Center']","['David D Bundy', 'University of Akron']",,,
+"('mary bartlett bunge ', 'UNIVERSITY OF MIAMI SCHOOL OF MEDICINE')","['Mary Bartlett Bunge', 'University of Wisconsin–Madison']","['Mary Bartlett Bunge', 'International Commission on Missing Persons']","['Mary Bartlett Bunge', 'Institute of Cell Biology']","['Mary Bartlett Bunge', 'International Commission on Missing Persons']","['Mary Barlett Bunge', 'University of Miami']"
+"(' john roland bethea', 'UNIVERSITY OF MIAMI SCHOOL OF MEDICINE')",,,,,
+"('jorg bungert', 'UNIVERSITY OF FLORIDA')","['Jörg Bungert', 'University of Florida Health']","['JÃrg Bungert', 'University of Florida']",,,
+"('christopher gerard bunick', 'YALE UNIVERSITY')","['Christopher G Bunick', 'Yale University']",,,,
+"('jeffrey j bunker', 'UNIVERSITY OF CHICAGO')","['Jeffrey J Bunker', 'University of Chicago']",,,,
+"('kevin d bunker', 'KALYRA PHARMACEUTICALS, INC.')","['Kevin D Bunker', 'Pfizer (United States)']","['Kevin D Bunker', 'University of California, San Diego']","['Kevin D Bunker', 'Kalyra Pharmaceuticals (United States)']",,
+"('brian e bunnell', 'MEDICAL UNIVERSITY OF SOUTH CAROLINA')","['Brian E Bunnell', 'Medical University of South Carolina']","['Brian E Bunnell', 'University of South Florida']","['Bryan E Bunnell', 'University at Buffalo, State University of New York']",,
+"('gregory charles bunt', 'AMERICAN SOCIETY OF ADDICTION MEDICINE')","['Gregory Bunt', 'Samaritan Center']","['Gregory Bunting', 'Sandia National Laboratories California']","['Gregory A Buntain', 'New Mexico State University']",,
+"('ferenc bunta', 'UNIVERSITY OF HOUSTON')","['Ferenc Bunta', 'University of Houston']",,,,
+"('kevin d bunting', 'EMORY UNIVERSITY')","['Kevin D Bunting', ""St. Jude Children's Research Hospital""]","['Kevin D Bunting', 'Emory University']","['Kevin D Bunting', 'George Washington University']","['Kevin D Bunting', 'University Hospitals of Cleveland']","['Kevin D Bunting', 'Wake Forest University']"
+"('vatinee y bunya', 'UNIVERSITY OF PENNSYLVANIA')","['Vatinee Y Bunya', 'Penn Presbyterian Medical Center']","['Vatinee Y Bunya', 'Hospital of the University of Pennsylvania']","['Vatinee Y Bunya', 'University of Pennsylvania']",,
+"('supinda bunyavanich', 'ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI')","['Supinda Bunyavanich', 'Icahn School of Medicine at Mount Sinai']",,,,
+"('fred bunz', 'JOHNS HOPKINS UNIVERSITY')","['Fred Bunz', 'Howard Hughes Medical Institute']","['Fred Bunz', 'Georgetown University']","['Fred Bunz', 'Cold Spring Harbor Laboratory']","['Fred Bunz', 'Kimmel Cancer Center']","['Fred Bunz', 'ORCID']"
+"('dean v buonomano', 'UNIVERSITY OF CALIFORNIA LOS ANGELES')","['Dean V Buonomano', 'University of California, Los Angeles']",,,,
+"('dean v buonomano ', 'UNIVERSITY OF CALIFORNIA LOS ANGELES')","['Dean V Buonomano', 'University of California, Los Angeles']",,,,
+"(' sotiris masmanidis', 'UNIVERSITY OF CALIFORNIA LOS ANGELES')","['Sotiris Masmanidis', 'University College London']","['Sotiris C Masmanidis', 'California NanoSystems Institute']","['Sotiris C Masmanidis', 'University of California, Los Angeles']","['Sotirios Masmanidis', 'California Institute of Technology']",
+"('charles f burant', 'UNIVERSITY OF MICHIGAN AT ANN ARBOR')","['Charles F Burant', 'University of Wisconsin–Madison']","['Charles F Burant', 'Medical University of South Carolina']","['Charles F Burant', 'University of Michigan–Ann Arbor']","['Charles F Burant', 'University of Chicago']","['Charles F Burant', 'University of Colorado Anschutz Medical Campus']"
+"('charles f burant ', 'UNIVERSITY OF MICHIGAN AT ANN ARBOR')","['Charles F Burant', 'University of Wisconsin–Madison']","['Charles F Burant', 'Medical University of South Carolina']","['Charles F Burant', 'University of Michigan–Ann Arbor']","['Charles F Burant', 'University of Chicago']","['Charles F Burant', 'University of Colorado Anschutz Medical Campus']"
+"(' jun li', 'UNIVERSITY OF MICHIGAN AT ANN ARBOR')",,,,,
+"('william buras', 'TIETRONIX SOFTWARE, INC.')","['William Buras', 'International Commission on Missing Persons']",,,,
+"('stephen buratowski', 'HARVARD MEDICAL SCHOOL')","['Stephen Buratowski', 'Harvard University']","['Stephen Buratowski', 'Whitehead Institute for Biomedical Research']",,,
+"('thomas m burbacher', 'UNIVERSITY OF WASHINGTON')","['Thomas M Burbacher', 'Amgen (United States)']","['Thomas M Burbacher', 'University of Washington']","['Thomas M Burbacher', 'University of Massachusetts Boston']",,
+"('brian burback', 'BATTELLE CENTERS/PUB HLTH RES & EVALUATN')","['Brian Burback', 'Battelle']",,,,
+"('david burch', 'ICF, INC., LLC')",,,,,
+"('esteban gonzalez burchard ', 'UNIVERSITY OF CALIFORNIA, SAN FRANCISCO')","['Esteban GonzalezBurchard', 'University of California, San Francisco']","['Esteban González Burchard', 'City University of New York']","['Esteban G Burchard', ""Brigham and Women's Hospital""]","['Esteban G Burchard', 'University of California, San Francisco']","['Esteban Burchard', 'University of California, San Francisco']"
+"(' william james gauderman', 'UNIVERSITY OF CALIFORNIA, SAN FRANCISCO')","['William J Gauderman', 'University of Southern California']",,,,
+"('esteban gonzalez burchard', 'UNIVERSITY OF CALIFORNIA, SAN FRANCISCO')","['Esteban GonzalezBurchard', 'University of California, San Francisco']","['Esteban González Burchard', 'City University of New York']","['Esteban G Burchard', ""Brigham and Women's Hospital""]","['Esteban G Burchard', 'University of California, San Francisco']","['Esteban Burchard', 'University of California, San Francisco']"
+"(' max seibold', 'UNIVERSITY OF CALIFORNIA, SAN FRANCISCO')","['Max Seibold', 'National Jewish Health']","['Max A Seibold', 'National Jewish Health']","['Max A Seibold', 'University of Colorado Anschutz Medical Campus']",,
+"('scott w burchiel', 'UNIVERSITY OF NEW MEXICO HEALTH SCIS CTR')","['Scott W Burchiel', 'University of New Mexico']","['Scott W Burchiel', 'Covance (United States)']","['Scott W Burchiel', 'University of California, Davis']",,
+"('christopher g burd', 'YALE UNIVERSITY')",,,,,
+"('randall s. burd ', ""CHILDREN'S RESEARCH INSTITUTE"")",,,,,
+"(' ivan marsic ', ""CHILDREN'S RESEARCH INSTITUTE"")","['Ivan Marsic', 'Rutgers, The State University of New Jersey']","['Ivan Marsic', 'Rutgers Sexual and Reproductive Health and Rights']",,,
+"(' aleksandra sarcevic', ""CHILDREN'S RESEARCH INSTITUTE"")","['Aleksandra Sarcevic', 'Drexel University']",,,,
+"('joshua evan burda', 'UNIVERSITY OF CALIFORNIA LOS ANGELES')",,,,,
+"('steven burden', 'NEW YORK UNIVERSITY SCHOOL OF MEDICINE')","['Steven Burden', 'Boise State University']","['Steven Burden', 'New York University']","['Steven J Burden', 'National Research Council Institute for Biodiagnostics']","['Steven J Burden', 'New York University']",
+"('steven burden ', 'NEW YORK UNIVERSITY SCHOOL OF MEDICINE')","['Steven Burden', 'Boise State University']","['Steven Burden', 'New York University']","['Steven J Burden', 'National Research Council Institute for Biodiagnostics']","['Steven J Burden', 'New York University']",
+"(' silvere m van der maarel', 'NEW YORK UNIVERSITY SCHOOL OF MEDICINE')","['Silvere M van der Maarel', 'Max Planck Institute for Molecular Genetics']","['Silvère M van der Maarel', 'Royal Holloway University of London']","['Silvère M van der Maarel', 'Leiden University Medical Center']","['Silvère M Van Der Maarel', 'Radboud University Nijmegen']",
+"('everette c burdette ', 'ACOUSTIC MEDSYSTEMS, INC.')","['Everette C Burdette', 'Georgia Institute of Technology']","['Everette C Burdette', 'Acoustic MedSystems (United States)']","['Everett C Burdette', 'Dornier Flugzeugwerke (Germany)']","['Everett C Burdette', 'Acoustic MedSystems (United States)']","['Everette C Dr Burdette', 'Dornier Flugzeugwerke (Germany)']"
+"(' chris john diederich', 'ACOUSTIC MEDSYSTEMS, INC.')","['Chris J Diederich', 'University of California, San Francisco']","['Chris J Diederich', 'University of California System']",,,
+"('katherine elizabeth burdick', 'ICAHN SCHOOL OF MEDICINE AT MOUNT SINAI')","['Katherine E Burdick', ""Brigham and Women's Hospital""]","['Katherine E Burdick', 'Harvard University']","['Katherine E Burdick', 'Icahn School of Medicine at Mount Sinai']","['Katherine Burdick', 'Michigan State University']",
+"('rebecca d. burdine ', 'SOCIETY FOR DEVELOPMENTAL BIOLOGY')","['Rebecca D Burdine', 'Princeton University']",,,,
+"(' ian d. krantz', 'SOCIETY FOR DEVELOPMENTAL BIOLOGY')","['Ian D Krantz', ""Children's Hospital of Philadelphia""]","['Ian D Krantz', 'Medical Genetics Center']","['Ian D Krantz', 'University of Pennsylvania']",,
+"('tricia helen burdo', 'TEMPLE UNIV OF THE COMMONWEALTH')",,,,,
+"('matthew m burg', 'YALE UNIVERSITY')",,,,,
+"('dan burgard', 'UNIVERSITY OF PUGET SOUND')",,,,,
+"('daniel eric burgard', 'UNIVERSITY OF NORTH TEXAS HLTH SCI CTR')",,,,,
+"('sarah a burgard', 'UNIVERSITY OF MICHIGAN AT ANN ARBOR')","['Sarah A Burgard', 'University of Michigan–Ann Arbor']",,,,
+"('jeffrey scott burgdorf', 'NORTHWESTERN UNIVERSITY')","['Jeffery S Burgdorf', 'Northwestern University']",,,,
+"('christopher b burge', 'MASSACHUSETTS INSTITUTE OF TECHNOLOGY')",,,,,
+"('wesley burge', 'UNIVERSITY OF ALABAMA AT BIRMINGHAM')",,,,,
+"('corinna burger', 'UNIVERSITY OF WISCONSIN-MADISON')",,,,,
+"('scott burger', 'None')","['Scott Burger', 'Advanced Cell Technology (United States)']","['Scott Burger', 'Massachusetts Institute of Technology']",,,
+"('peter m burgers', 'WASHINGTON UNIVERSITY')","['Peter M J Burgers', 'Washington University in St. Louis']","['Peter M J Burgers', 'Max Planck Institute of Experimental Medicine']","['Peter MJ Burgers', 'Washington University in St. Louis']","['Peter MJ Burgers', 'Stanford University']",
+"('james d burgess', 'AUGUSTA UNIVERSITY')","['James D Burgess', 'Virginia Commonwealth University']","['James D Burgess', 'Prevention Institute']","['James D Burgess', 'University Health Care System']","['James D Burgess', 'Case Western Reserve University']",
+"('jefferey l burgess', 'UNIVERSITY OF ARIZONA')","['Jefferey L Burgess', 'University of Arizona']","['Jefferey L Burgess', 'Skidmore College']","['Jefferey L Burgess', 'International Agency For Research On Cancer']","['Jeffery L Burgess', 'University of Arizona']",
+"('kevin burgess', 'SMALL MOLECULE PPI MIMICS, LLC')","['Kevin Burgess', 'Columbus State University']","['Kevin Burgess', 'Naval Postgraduate School']","['Kevin Burgess', 'Cranfield University']","['Kevin Burgess', 'Texas A&M University']","['Kevin Burgess', 'University of Edinburgh']"
+"('kimberly s collins', 'INDIANA UNIV-PURDUE UNIV AT INDIANAPOLIS')",,,,,
+"('robert w burgess', 'JACKSON LABORATORY')","['Robert W Burgess', 'United States Public Health Service']","['Robert W Burgess', 'Liberian Institute for Biomedical Research']","['Robert W Burgess', 'Jackson Laboratory']","['Robert Burgess', 'University of Iowa']","['Robert Burgess', ""Cincinnati Children's Hospital Medical Center""]"
+"('robert w burgess ', 'JACKSON LABORATORY')","['Robert W Burgess', 'United States Public Health Service']","['Robert W Burgess', 'Liberian Institute for Biomedical Research']","['Robert W Burgess', 'Jackson Laboratory']","['Robert Burgess', 'University of Iowa']","['Robert Burgess', ""Cincinnati Children's Hospital Medical Center""]"
+"(' joshua a weiner', 'JACKSON LABORATORY')",,,,,
+"(' cathleen m lutz ', 'JACKSON LABORATORY')",,,,,
+"(' kevin l seburn', 'JACKSON LABORATORY')","['Kevin L Seburn', 'University of British Columbia']","['Kevin L Seburn', 'Jackson Laboratory']",,,
+"('shawn c burgess', 'UT SOUTHWESTERN MEDICAL CENTER')","['Shawn C Burgess', 'International Commission on Missing Persons']","['Shawn C Burgess', 'The University of Texas Southwestern Medical Center']","['Shane C Burgess', 'University of Arizona']","['Shane C Burgess', 'Mississippi State University']",
+"('shawn m burgess', 'NATIONAL HUMAN GENOME RESEARCH INSTITUTE')","['Shawn M Burgess', 'National Human Genome Research Institute']",,,,
+"('timothy burgess', 'NATIONAL INSTITUTE OF ALLERGY AND INFECTIOUS DISEASES')","['Timothy Burgess', 'Naval Medical Research Center']","['Timothy Burgess', 'Uniformed Services University of the Health Sciences']","['Timothy H Burgess', 'Uniformed Services University of the Health Sciences']","['Timothy H Burgess', 'United States Department of the Navy']",
+"('alison clements burggren', 'UNIVERSITY OF CALIFORNIA LOS ANGELES')","['Alison C Burggren', 'University of California, Los Angeles']","['Alison C Burggren', 'University of Oregon']","['Alison Burggren', 'University of California, Los Angeles']",,
+"('paul r burghardt', 'WAYNE STATE UNIVERSITY')","['Paul R Burghardt', 'University of South Carolina']","['Paul R Burghardt', 'Wayne State University']",,,
+"('kathryn larsen burgio', 'UNIVERSITY OF ALABAMA AT BIRMINGHAM')","['Kathryn L Burgio', 'University of Alabama at Birmingham']","['Kathryn L Burgio', 'Geriatric Research Education and Clinical Center']",,,
+"('sharon nieter burgmayer', 'BRYN MAWR COLLEGE')","['Sharon Neiter Burgmayer', 'Bryn Mawr College']",,,,
+"('anita burgos', 'COLUMBIA UNIVERSITY HEALTH SCIENCES')",,,,,
+"('jose luis burgos', 'UNIVERSITY OF CALIFORNIA, SAN DIEGO')","['Jose Luis Burgos', 'University of California, San Diego']","['Jose Wilson Burgos Rivera', 'Escuela Superior Politecnica del Litoral']",,,
+"('claude f burgoyne', 'LEGACY EMANUEL HOSPITAL AND HEALTH CENTER')","['Claude F Burgoyne', 'Tulane University']","['Claude F Burgoyne', 'University of Minnesota']","['Claude F Burgoyne', 'Legacy Health']","['Claude F Burgoyne', 'Oregon Health & Science University']","['Claude F Burgoyne', 'University of Pittsburgh']"
+"('linda burhansstipanov', 'NATIVE AMERICAN CANCER INITIATIVES, INC.')",,,,,
+"('julie e. buring ', ""BRIGHAM AND WOMEN'S HOSPITAL"")","['Julie E Buring', ""Brigham and Women's Hospital""]","['Julie E Buring', 'Harvard University']","['Julie E Buring', 'Vital Research']","['JULIE E BURING', ""Brigham and Women's Hospital""]","['Julie Buring', 'Harvard University']"
+"(' i-min lee', ""BRIGHAM AND WOMEN'S HOSPITAL"")",,,,,
+"('david h burk', 'LSU PENNINGTON BIOMEDICAL RESEARCH CTR')",,,,,
+"('michael d burkart', 'UNIVERSITY OF CALIFORNIA, SAN DIEGO')","['Michael D Burkart', 'University of California, San Diego']",,,,
+"('donald h burke', 'UNIVERSITY OF MISSOURI-COLUMBIA')",,,,,
+"('donald s burke', 'UNIVERSITY OF PITTSBURGH AT PITTSBURGH')",,,,,
+"('james francis burke', 'UNIVERSITY OF MICHIGAN AT ANN ARBOR')","['James F Burke', 'Tufts University']","['James F Burke', 'Main Line Health']","['James F Burke', 'Harvard University']","['James F Burke', 'Thomas Jefferson University']","['James F Burke', 'Rochester Institute of Technology']"
+"('janice m burke', 'MEDICAL COLLEGE OF WISCONSIN')","['Janice M Burke', 'Medical College of Wisconsin']","['Janice M Burke', 'Lakehead University']",,,
+"('jessica griffin burke', 'UNIVERSITY OF PITTSBURGH AT PITTSBURGH')","['Jessica G Burke', 'Center for Disease Dynamics, Economics & Policy']","['Jessica G Burke', 'University of Pittsburgh']",,,
+"('martin d burke', 'UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN')","['Martin D Burke', 'Medical University of South Carolina']","['Martin D Burke', 'University of Illinois Urbana-Champaign']","['Martin D Burke', 'Illinois College']","['Martin Burke', 'Defence Science and Technology Group']","['Martin Burke', 'International Commission on Missing Persons']"
+"('michael a burke', 'EMORY UNIVERSITY')","['Michael A Burke', 'Electric Power Research Institute']","['Michael A Burke', 'University of Miami']","['Michael A Burke', 'Emory University']","['Michael A Burke', 'University of California, Los Angeles']","['Michael A Burke', 'Duke University']"
+"('nancy j burke', 'UNIVERSITY OF CALIFORNIA, SAN FRANCISCO')","['Nancy J Burke', 'University of California, Merced']","['Nancy J Burke', 'University of California, San Francisco']","['Nancy J Burke', 'University of California System']",,
+"('peter a burke', 'BOSTON MEDICAL CENTER')","['Peter A Burke', 'Boston University']","['Peter A Burke', 'Boston Medical Center']","['Peter A Burke', 'International Commission on Missing Persons']","['Peter A Burke', 'Carolinas Medical Center']","['Peter A Burke', 'Deaconess Hospital']"
+"('robert edward burke', 'DENVER RESEARCH INSTITUTE')","['Robert E Burke', 'International Commission on Missing Persons']","['Robert E Burke', 'Pace University']","['Robert E Burke', ""Brigham and Women's Hospital""]","['Robert E Burke', 'Pennsylvania State University']","['Robert E Burke', 'International Commission on Missing Persons']"
+"('sara n burke ', 'UNIVERSITY OF FLORIDA')","['Sara N Burke', 'International Commission on Missing Persons']","['Sara N Burke', 'University of Florida']","['Sarah N Burke', 'International Commission on Missing Persons']","['Sarah HahnBurke', ""St. Luke's-Roosevelt Hospital Center""]",
+"(' andrew porter maurer ', 'UNIVERSITY OF FLORIDA')",,,,,
+"(' brandi k. ormerod', 'UNIVERSITY OF FLORIDA')","['Brandi K Ormerod', 'International Commission on Missing Persons']","['Brandi K Ormerod', 'University of British Columbia']",,,
+"('sara n burke', 'UNIVERSITY OF FLORIDA')","['Sara N Burke', 'International Commission on Missing Persons']","['Sara N Burke', 'University of Florida']","['Sarah N Burke', 'International Commission on Missing Persons']","['Sarah HahnBurke', ""St. Luke's-Roosevelt Hospital Center""]",
+"('wylie g burke', 'UNIVERSITY OF WASHINGTON')",,,,,
+"('joel g burken', 'MISSOURI UNIVERSITY OF SCIENCE & TECHNOLOGY')","['Joel G Burken', 'Missouri University of Science and Technology']",,,,
+"('patrick ryland burkett', ""BRIGHAM AND WOMEN'S HOSPITAL"")","['Patrick R Burkett', ""Brigham and Women's Hospital""]","['Patrick Burkett', 'Biogen (United States)']","['Peter G Burkett', 'Pennsylvania State University']",,
+"('kristopher burkewitz', 'HARVARD SCHOOL OF PUBLIC HEALTH')","['Kristopher Burkewitz', 'Vanderbilt University']",,,,
+"('andreas hans burkhalter', 'WASHINGTON UNIVERSITY')","['Andreas Burkhalter', 'California Institute of Technology']","['Andreas Burkhalter', 'University of Zurich']","['Andreas Burkhalter', 'Washington University in St. Louis']",,
+"('brant roger burkhardt', 'UNIVERSITY OF SOUTH FLORIDA')","['Brant R Burkhardt', 'University of South Florida']","['Bernd Burkhardt', 'University of Kaiserslautern']",,,
+"('janis k burkhardt', 'UNIVERSITY OF PENNSYLVANIA')","['Janis K Burkhardt', ""Children's Hospital of Philadelphia""]","['Janis K Burkhardt', 'University of Pennsylvania']","['Jans K Burkhardt', 'University of Chicago']",,
+"('janis k burkhardt', ""CHILDREN'S HOSP OF PHILADELPHIA"")","['Janis K Burkhardt', ""Children's Hospital of Philadelphia""]","['Janis K Burkhardt', 'University of Pennsylvania']","['Jans K Burkhardt', 'University of Chicago']",,

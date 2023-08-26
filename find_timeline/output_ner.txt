@@ -1,0 +1,8 @@
+Author-Organization(e1,e2)
+Author-Organization(e1,e2)
+Member-Collection(e1,e2)
+Author-Organization(e1,e2)
+Author-Organization(e2,e1)
+Author-Organization(e2,e1)
+Author-Organization(e2,e1)
+Other

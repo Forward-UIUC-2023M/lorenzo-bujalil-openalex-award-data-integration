@@ -1,0 +1,8 @@
+*.db filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+raw_data.csv filter=lfs diff=lfs merge=lfs -text
+raw_data.txt filter=lfs diff=lfs merge=lfs -text
+clean_authors.csv filter=lfs diff=lfs merge=lfs -text
+insert_names.csv filter=lfs diff=lfs merge=lfs -text
+insert_names_copy.csv filter=lfs diff=lfs merge=lfs -text
+*.xml filter=lfs diff=lfs merge=lfs -text
