@@ -6,15 +6,22 @@ This module is responsible for integrating award data into the openalex schema. 
 
 ## Setup
 
+### Prerequisites / Recommendations
 Prerequisites: Python 3.9.6 | pip 21.2.4 | git-lfs | Cisco AnyConnect VPN
 
-Recommendation: Use Python Virtual Environment
+Recommendations: Use Python Virtual Environment | pgAdmin
+
+#### Installations
 
 Homebrew Installation: Git-LFS
 ```
 brew install git-lfs
 ```
-[Cisco AnyConnect VPN Installation](https://answers.uillinois.edu/illinois/98773)
+[Cisco AnyConnect VPN](https://answers.uillinois.edu/illinois/98773)
+
+[pgAdmin](https://www.pgadmin.org/download/)
+
+### Setup/Validation Steps
 
 1. Ensure your system is setup and using the above prerequisites in order to install dependencies
 2. Clone repository to load scripts and large files (Ensure that you have the model files for the timeline project)
@@ -27,14 +34,18 @@ pip3 install -r requirements.txt
 pip3 install -r find_timeline/requirements.txt
 ```
 5. Connect to the VPN using your UIUC credentials.
-6. 
-```
-pip install -r requirements.txt 
-```
+6. Test the setup by running the following scripts. If no errors occur, the setup was a success. (Feel free to cancel resolve_data.py after the first author)
 
-3. Additionally, list any other setup required to run your module such as installing MySQL or downloading data files that you module relies on. 
+**Make sure to run all scripts within the root of the project**
+```
+python3 find_timeline/example.py
+```
+```
+python3 main_scripts/resolve_data.py
+```
+7. You are now setup and can use the module.
 
-4. Include instructions on how to run any tests you have written to verify your module is working properly. 
+   
 
 It is very important to also include an overall breakdown of your repo's file structure. Let people know what is in each directory and where to look if they need something specific. This will also let users know how your repo needs to structured so that your module can work properly
 
