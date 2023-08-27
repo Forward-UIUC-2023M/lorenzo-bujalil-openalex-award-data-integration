@@ -2,9 +2,7 @@
 
 ## Overview
 
-Give a brief overview of your module here. For example: this module is responsible for classifying pieces of text using a neural network on top of BERT. 
-
-Note: if this is a second or latter iteration of a module, you may reuse the old iteration's README as a starting point (you should still update it). 
+This module is responsible for integrating award data into the openalex schema. We are using the information found in the award data to be able to create relationships to other tables in order to finally build an awards table. The problem to solve in this case is of data consolidation, which is to join disparate datasets and ensure data standardization. This module aims to standardize award data and ensure appropriate record linkage.
 
 ## Setup
 
