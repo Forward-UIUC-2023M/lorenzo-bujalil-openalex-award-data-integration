@@ -47,7 +47,7 @@ python3 main_scripts/resolve_data.py
 
 ## Repository Structure   
 
-
+**Description for all files/functions within file/function definition**
 ```
 lorenzo-bujalil-openalex-award-data-integration/
     - requirements.txt
@@ -98,7 +98,7 @@ lorenzo-bujalil-openalex-award-data-integration/
         -- testing/
             -- normal.txt
 ```
-**Description for all files/functions within file/function definition**
+
 
 Important Files
 * `main_scripts/conform_awards.py`: Conform awards is main script that handles the cleaning of the award data specifically to the principal_investigators in this data.
