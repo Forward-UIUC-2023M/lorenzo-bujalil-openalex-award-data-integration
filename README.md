@@ -322,8 +322,7 @@ In this section, please list all know issues, limitations, and possible areas fo
 
 ## Change log
 
-Summer 2023 (lorenzo9)
-First Iteration
+Summer 2023 First Iteration
 
 
 ## References 
