@@ -4,8 +4,7 @@ Author: Lorenzo Bujalil Silva
 Date: 2023-08-26
 
 Description:
-Main script to call helper scripts to create the database, 
-load data, and insert the data into the new database.
+Conform awards is main script that handles the cleaning of the award data specifically to the principal_investigators in this data.
 
 Dependencies:
 - pandas

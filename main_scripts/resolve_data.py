@@ -12,6 +12,7 @@ timeline in order to reduce number of query results
 which will be used in the similarity matching.
 4. Use a combination of similarity matching algorithms
 in order to come up with the name that is the most similar.
+
 Dependencies:
 - pandas
 - json
@@ -82,7 +83,17 @@ def query_index(name_list,award_recipient):
     Main function that applies the matching algorithm.
 
     Parameters:
+    name_list : List of strings
+        List containing the first, middle, and last names of the author
+    
+    award_recipient : string
+        Name of the institution that recieved award
+
+    Returns:
+    List,integer
+        The list of matched authors and the number of matched authors
     """
+    
     conn = setPostgresConnection()
     cur = conn.cursor()
     # print(name_list[0])
@@ -237,27 +248,6 @@ if __name__ == "__main__":
                 authors_mapping[(name,award_recipient)].append([matched,institution_name])
             
         # print(total_authors)
-
-    # with open('data/mapping/timeline.txt','w') as f:
-    #     for author in authors_mapping:
-    #         timelines = []
-    #         for match in authors_mapping[author]:
-
-
-
-    #             base_url = 'https://api.openalex.org/institutions/'
-    #             api_url = base_url + match[1].replace("https://openalex.org/","")
-    #             response = requests.get(api_url)
-
-
-    #             name = (response.json()).get("display_name")
-    #             print(name,type(name))
-    #             print(match[0],type(match[0]))
-    #             timeline = openalex_timeline(match[0],name,"lbujalil@gmail.com")
-    #             if timeline != None:
-    #                 f.write(f'{author} --------> {json.dumps(timeline)}')
-    #                 break
-
 
     with open('data/mapping/mapped_authors.txt','w') as f:
         for author in authors_mapping:
