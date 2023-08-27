@@ -322,17 +322,8 @@ In this section, please list all know issues, limitations, and possible areas fo
 
 ## Change log
 
-Use this section to list the _major_ changes made to the module if this is not the first iteration of the module. Include an entry for each semester and name of person working on the module. For example 
-
-Fall 2021 (Student 1)
-* Week of 04/11/2022: added two new functions responsible for ...
-* Week of 03/14/2022: fixed bug and added support for ...
-
-Spring 2021 (Student 2)
-...
-
-Fall 2020 (Student 3)
-...
+Summer 2023 (lorenzo9)
+First Iteration
 
 
 ## References 
