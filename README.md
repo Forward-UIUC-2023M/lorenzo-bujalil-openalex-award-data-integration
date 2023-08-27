@@ -99,32 +99,98 @@ lorenzo-bujalil-openalex-award-data-integration/
         -- testing/
             -- normal.txt
 ```
+**Description for all files/functions within file/function definition**
 
+Important Files
+* `main_scripts/conform_awards.py`: Main script to call helper scripts to create the database, 
+load data, and insert the data into the new database.
+* `main_scripts/conform_authors.py`: Main script used to clean up institution data currently found in
+the postgres database. This is done to create a new database
+that has the full name written out in the database.
+* `main_scripts/load_raw_awards.py`: Main script to call helper scripts to create the database, 
+load data, and insert the data into the new database.
+* `main_scripts/resolve_data.py`: Main algorithm used to match authors.
+1. Preprocess Name and build database index
+2. Create author's timeline
+3. Use authors name, and authors institution
+timeline in order to reduce number of query results
+which will be used in the similarity matching.
+4. Use a combination of similarity matching algorithms
+in order to come up with the name that is the most similar.
 
-Include text description of all the important files / componenets in your repo. 
-* `src/create_train_data/`: fetches and pre-processes articles
-* `src/train.py`: trains model from pre-processed data
-* `src/classify_articles/`: runs trained model on input data
-* `data/eval_artcles.csv`: articles to be classified (each row should include an 'id', and 'title')
 
 ## Functional Design (Usage)
-Describe all functions / classes that will be available to users of your module. This section should be oriented towards users who want to _apply_ your module! This means that you should **not** include internal functions that won't be useful to the user in this section. You can think of this section as a documentation for the functions of your package. Be sure to also include a short description of what task each function is responsible for if it is not apparent. You only need to provide the outline of what your function will input and output. You do not need to write the pseudo code of the body of the functions. 
 
-* Takes as input a list of strings, each representing a document and outputs confidence scores for each possible class / field in a dictionary
-```python
-    def classify_docs(docs: list[str]):
-        ... 
-        return [
-            { 'cs': cs_score, 'math': math_score, ..., 'chemistry': chemistry_score },
-            ...
-        ]
-```
-
-* Outputs the weights as a numpy array of shape `(num_classes, num_features)` of the trained neural network 
-```python
-    def get_nn_weights():
+* Takes as input the name of the author and institution found in the award data. Some name preprocessing is done, and then the timeline of the author is generated. This timeline will be a list of the institutions where the author has published works. Once this list is generated, we can use it to get authors where their last known institution is one of the institutions in the timeline. This greatly reduces the number of authors that we need to search through in order to find the right one. Once we have these authors, we can apply a few more strategies to reduce the number of records. In this function, I implemented a strategy that essentially checks if different variations of the authors name exist in a given record. For example, it will check if the name contains the last name then it will not filter the record. Once a majority of records have been filtered out, we can use a variety of different similarity algorithms and use them in combination to determine the most similar name. Then we can order by this combined score and return the 10 most similar names. From this information we can filter out any unwanted authors, but we now have the most probable match. This function can be used for every single author and then we can determine the best record to match and then can integrate the award dataset.
+```python Fo
+    def query_index(name_list,award_recipient):
         ...
-        return W
+        inst_list = []
+        for i in initialized_names_list:
+            author_timeline = openalex_timeline(i,award_recipient,'lbujalil@gmail.com')
+            if author_timeline:
+                for author in author_timeline:
+                    for inst in author_timeline[author]:
+                        inst_list.append(inst)
+                break
+        ...
+        cur.execute(f'''
+                        WITH preprocessed AS (
+                            SELECT 
+                            display_name,
+                            REGEXP_REPLACE(display_name, '[^\w\s]', '', 'g') as cleaned_name, 
+                            LOWER(display_name) as lower_name,
+                            CASE
+                                WHEN POSITION(' ' IN display_name) > 0 THEN LOWER(SPLIT_PART(display_name, ' ', 1))
+                                ELSE NULL
+                            END as first_name,
+                            CASE
+                                WHEN POSITION(' ' IN display_name) > 1 THEN LOWER(SPLIT_PART(display_name, ' ', 2))
+                                ELSE NULL
+                            END as middle_initial,
+                            CASE
+                                WHEN POSITION(' ' IN display_name) > 0 THEN LOWER(SPLIT_PART(display_name, ' ', 3))
+                                ELSE NULL
+                            END as last_name,
+                            last_known_institution
+                            FROM openalex.authors_partition ap JOIN openalex.institution_dimension_2 i ON (i.id=ap.id)
+                            WHERE LENGTH(display_name) <= 255
+                            AND ap.last_known_institution IS NOT NULL
+                            AND ({sql_and})
+                            AND ({inst_or})
+                        ), scored AS (
+                            SELECT 
+                            display_name,
+                            last_known_institution,
+                            cleaned_name, 
+                            GREATEST(
+                                SIMILARITY(lower_name,'{name}'),
+                                SIMILARITY(CONCAT(first_name, ' ', middle_initial, ' ', last_name), '{name}')
+                            ) as best_similarity
+                            SIMILARITY(last_known_institution,'{award_recipient}') as institution_sim
+                            CASE WHEN SOUNDEX(lower_name) = SOUNDEX('{name}') THEN 1 ELSE 0 END as soundex_score,
+                            CASE WHEN METAPHONE(lower_name,10) = METAPHONE('{name}',10) THEN 1 ELSE 0 END as metaphone_score,
+                            CASE WHEN DMETAPHONE(lower_name) = DMETAPHONE('{name}') THEN 1 ELSE 0 END as dmetaphone_score,
+                            LEAST(1.0, LEVENSHTEIN(lower_name,'{name}') / 100.0) AS normalized_levenshtein_score
+                            FROM preprocessed
+                        )
+                            SELECT 
+                            display_name,
+                            last_known_institution,
+                            cleaned_name,
+                            best_similarity,
+                            soundex_score,
+                            metaphone_score,
+                            dmetaphone_score,
+                            normalized_levenshtein_score,
+                            (0.9 * best_similarity) + (0.1 * soundex_score) + (0.1 * metaphone_score) + (0.1 * dmetaphone_score) - (0.01 * normalized_levenshtein_score) as total_score
+                            best_similarity as total_score
+                            FROM scored
+                            ORDER BY total_score DESC
+                            LIMIT 10;
+                    ''')
+        ...
+        return rows,len(rows)
 ```
 
 ## Demo video
