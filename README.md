@@ -304,6 +304,8 @@ First, we select a set of labeled text documents `d_1, d_2, …, d_N` from the a
 
 After training, we run the trained model to classify the test documents into one of the classes in C. Below is a picture of the architecture of the module. The diagram below was constructed using draw.io 
 
+Data is initally loaded from the awards.xml file using a lxml parser and a sqlite database, awards.db, is created for this data in order to ensure rapid data access. Now that this data is located in quick access storage, the data needs to be conformed in preparation for the matching process. There are a variety of different patterns that appear within the names of the primary investigators of the raw award data. Enforcing strict rules, FIRST MI LAST, for standardization of names within the award data will ensure for quicker and easier record linkage, specifically due to data filtering and then name matching. Once the names are standardized, they can be moved into the conformed data source 
+
 
 ![design architecture](https://github.com/Forward-UIUC-2023M/lorenzo-bujalil-openalex-award-data-integration/blob/main/data/research.drawio.png)
 
