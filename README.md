@@ -6,9 +6,11 @@ This module is responsible for integrating award data into the openalex schema. 
 
 ## Setup
 
-List the steps needed to install your module's dependencies: 
+Steps needed to install module's dependencies: 
 
-1. Include what version of Python (e.g. 3.8.12) and what version of pip (e.g. 21.3.1) you used when running your module. If you do not specify these, other users may run into several problems when trying to install dependencies!
+Prerequisites: Python 3.9.6 | pip 21.2.4
+
+1. Ensure your system is setup and using the above prerequisites.
 
 2. Include a requirements.txt containing all of the python dependencies needed at your project's root (see this [link](https://stackoverflow.com/questions/31684375/automatically-create-requirements-txt) for instructions on how to create a requirements.txt). If you used a python virtual environment, use `pip freeze -l > requirements.txt` to generate your requirements.txt file. Make sure to include the below line somewhere in this section to tell users how to use your requirements.txt. 
 ```
