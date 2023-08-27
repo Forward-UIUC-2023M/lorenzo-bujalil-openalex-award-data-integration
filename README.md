@@ -102,14 +102,14 @@ lorenzo-bujalil-openalex-award-data-integration/
 **Description for all files/functions within file/function definition**
 
 Important Files
-* `main_scripts/conform_awards.py`: Main script to call helper scripts to create the database, 
-load data, and insert the data into the new database.
+* `main_scripts/conform_awards.py`: Conform awards is main script that handles the cleaning of the award data specifically to the principal_investigators in this data.
 * `main_scripts/conform_authors.py`: Main script used to clean up institution data currently found in
 the postgres database. This is done to create a new database
 that has the full name written out in the database.
 * `main_scripts/load_raw_awards.py`: Main script to call helper scripts to create the database, 
 load data, and insert the data into the new database.
 * `main_scripts/resolve_data.py`: Main algorithm used to match authors.
+```
 1. Preprocess Name and build database index
 2. Create author's timeline
 3. Use authors name, and authors institution
@@ -117,12 +117,12 @@ timeline in order to reduce number of query results
 which will be used in the similarity matching.
 4. Use a combination of similarity matching algorithms
 in order to come up with the name that is the most similar.
-
+```
 
 ## Functional Design (Usage)
 
-* Takes as input the name of the author and institution found in the award data. Some name preprocessing is done, and then the timeline of the author is generated. This timeline will be a list of the institutions where the author has published works. Once this list is generated, we can use it to get authors where their last known institution is one of the institutions in the timeline. This greatly reduces the number of authors that we need to search through in order to find the right one. Once we have these authors, we can apply a few more strategies to reduce the number of records. In this function, I implemented a strategy that essentially checks if different variations of the authors name exist in a given record. For example, it will check if the name contains the last name then it will not filter the record. Once a majority of records have been filtered out, we can use a variety of different similarity algorithms and use them in combination to determine the most similar name. Then we can order by this combined score and return the 10 most similar names. From this information we can filter out any unwanted authors, but we now have the most probable match. This function can be used for every single author and then we can determine the best record to match and then can integrate the award dataset.
-```python Fo
+* `main_scripts/resolve_data.py`: Takes as input the name of the author and institution found in the award data. Some name preprocessing is done, and then the timeline of the author is generated. This timeline will be a list of the institutions where the author has published works. Once this list is generated, we can use it to get authors where their last known institution is one of the institutions in the timeline. This greatly reduces the number of authors that we need to search through in order to find the right one. Once we have these authors, we can apply a few more strategies to reduce the number of records. In this function, I implemented a strategy that essentially checks if different variations of the authors name exist in a given record. For example, it will check if the name contains the last name then it will not filter the record. Once a majority of records have been filtered out, we can use a variety of different similarity algorithms and use them in combination to determine the most similar name. Then we can order by this combined score and return the 10 most similar names. From this information we can filter out any unwanted authors, but we now have the most probable match. This function can be used for every single author and then we can determine the best record to match and then can integrate the award dataset.
+```python
     def query_index(name_list,award_recipient):
         ...
         inst_list = []
@@ -192,6 +192,104 @@ in order to come up with the name that is the most similar.
         ...
         return rows,len(rows)
 ```
+* `main_scripts/conform_awards.py`: Conform awards is main script that handles the cleaning of the award data specifically to the principal_investigators in this data. There are many different patterns that appear in the award data, which requires for complicated and intricate pattern matching to standardize the dataset. When linking records together based on the author's name, it is very important how the name appears in both datasets. The closer we are able to get those names to match, the easier it becomes to match that record. This script is enforcing strict standardization rules on the variety of patterns, in order to have each name in this form: FIRST MI LAST. These rules are clearly defined in helper_scripts/normalize.py and are later called in main_scripts/conform_awards.py. This script is using SQL queries to verify the accurate count of records remaining after cleaning the majority of the authors and normalize.py defines cases where specific strings appear in a pattern then cleans those.
+  
+```python
+# helper_scripts/normalize.py
+
+def clean_author_data(author,clean_authors):
+    """
+    Main purpose of this function is to clean the author name data by dealing with the variety of cases.
+
+    Parameters:
+    author : string
+            Raw name in the awards data.
+    clean_authors : List
+            List of clean authors where the newly cleaned author will be appended to.
+
+    Returns:
+    None
+
+    """
+    if 'Contact PI / Project Leader: ' in author:
+        if 'Other PI or Project Leader(s):' in author:
+            divide = author.split('\n')
+            primary_author = divide[0]
+            primary_author = primary_author.replace("Contact PI / Project Leader: ", "")
+            secondary_author = divide[1]
+            secondary_author = secondary_author.replace("Other PI or Project Leader(s): ","")
+            author_list = (primary_author+' ; '+secondary_author).split(";")
+            author_list = [author.strip() for author in author_list]
+            author_list = [author.split(",")[1][1:].lower() + " " + author.split(",")[0].lower() for author in author_list]
+            
+            clean_authors.append(' ; '.join(author_list))
+        else:
+            updated_author = author.replace("Contact PI / Project Leader: ", "")
+            
+            updated_author_list = updated_author.split(",")
+
+            if len(updated_author.split(", ")) == 1:
+                updated_author = updated_author_list[0].lower()
+            else:
+                updated_author = updated_author_list[1][1:].lower() + " " + updated_author_list[0].lower()
+            updated_author = updated_author.replace(".","")
+            updated_author = updated_author.replace(",","")
+            updated_author = updated_author.replace('''"''',"")
+
+            clean_authors.append(updated_author.strip())
+    ...
+```
+```python
+# main_scripts/conform_awards.py
+
+...
+
+if __name__ == "__main__":
+query = '''SELECT principal_investigators FROM awards''' # Pull all of the authors from the sqlite database
+conn = establish_conn() # Create a connection with the sqlite database
+conn.create_function("REGEXP", 2, regexp) # Create a regex function for complex queries
+res = get_data(conn,query,'') # Retrieve data from the sqlite database using the above query
+raw_data = res.fetchall() # Retrieve all the data from the result
+raw_data_list = [] # Create a list to store the raw data
+for data in raw_data: # Load the list with the raw data
+    raw_data_list.append(data[0])
+
+print(f'Size of raw data:{len(raw_data)}') # Total amount of raw data 
+
+# Prints the number of authors remaining to clean
+print("Remaining authors: ", read_data(conn,'''SELECT count(principal_investigators) 
+                                            FROM awards 
+                                            WHERE principal_investigators NOT LIKE '%Contact PI / Project Leader: %' 
+                                            AND principal_investigators NOT LIKE 'Name:%' 
+                                            AND principal_investigators NOT LIKE 'None' 
+                                            AND principal_investigators NOT LIKE 'Phone:%' 
+                                            AND principal_investigators NOT LIKE '%(Principal Investigator)%'
+                                            AND principal_investigators NOT LIKE '%(Former Principal Investigator)%'
+                                            AND principal_investigators NOT REGEXP ?''', (r'\b[A-Za-z]+\s+(?<!\n)[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\r?\n?',))) 
+clean_authors = [] # Create an empty list of authors to store the clean authors
+clean_authors_idx = [] # Stores the index of the clean authors
+null_values = 0 # Counts the number of null values that appear in the award data
+none_authors = 0 # Counts the number of records that have no principal investigators in the award data
+phone_numbers = 0 # Counts the number of records that have only a phone number as the principal investigator in the award data
+
+for idx,author in enumerate(raw_data): # Iterate through the raw data and run the cleaning function found in the normalization helper script
+    if author[0] != None and author[0].startswith('Phone:'):
+        phone_numbers+=1
+        continue
+    if author[0] == 'None':
+        none_authors+=1
+        continue
+    if author[0] != None:
+        clean_authors_count = len(clean_authors)
+        clean_author_data(author[0],clean_authors)
+        if clean_authors_count == len(clean_authors)-1:
+            clean_authors_idx.append(idx)
+    else:
+        null_values+=1
+...
+```
+
+
 
 ## Demo video
 
