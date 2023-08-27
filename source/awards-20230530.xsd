@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="awards_data">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="award"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="award">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="element_code"/>
+        <xs:element ref="modified_date"/>
+        <xs:element ref="ext_award_id"/>
+        <xs:element ref="end_date"/>
+        <xs:element ref="program_manager"/>
+        <xs:element ref="abstract"/>
+        <xs:element ref="fiscal_year"/>
+        <xs:element ref="amount_awarded"/>
+        <xs:element ref="currency"/>
+        <xs:element ref="award_number"/>
+        <xs:element ref="principal_investigators"/>
+        <xs:element ref="recipients"/>
+        <xs:element ref="award_url"/>
+        <xs:element ref="program_title"/>
+        <xs:element ref="source_url"/>
+        <xs:element ref="start_date"/>
+        <xs:element ref="cfda"/>
+        <xs:element ref="award_title"/>
+        <xs:element ref="all_types"/>
+        <xs:element ref="all_categories"/>
+        <xs:element ref="sponsors"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="element_code" type="xs:NCName"/>
+  <xs:element name="modified_date" type="xs:string"/>
+  <xs:element name="ext_award_id" type="xs:NCName"/>
+  <xs:element name="end_date" type="xs:NMTOKEN"/>
+  <xs:element name="program_manager" type="xs:string"/>
+  <xs:element name="abstract" type="xs:string"/>
+  <xs:element name="fiscal_year" type="xs:NMTOKEN"/>
+  <xs:element name="amount_awarded" type="xs:decimal"/>
+  <xs:element name="currency" type="xs:NCName"/>
+  <xs:element name="award_number" type="xs:string"/>
+  <xs:element name="principal_investigators" type="xs:string"/>
+  <xs:element name="recipients" type="xs:string"/>
+  <xs:element name="award_url" type="xs:anyURI"/>
+  <xs:element name="program_title" type="xs:string"/>
+  <xs:element name="source_url" type="xs:NCName"/>
+  <xs:element name="start_date" type="xs:NMTOKEN"/>
+  <xs:element name="cfda" type="xs:string"/>
+  <xs:element name="award_title" type="xs:string"/>
+  <xs:element name="all_types" type="xs:string"/>
+  <xs:element name="all_categories" type="xs:string"/>
+  <xs:element name="sponsors">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="sponsor"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sponsor">
+    <xs:complexType mixed="true">
+      <xs:attribute name="id" use="required" type="xs:integer"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
