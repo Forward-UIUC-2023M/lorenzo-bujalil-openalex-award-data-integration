@@ -305,7 +305,7 @@ First, we select a set of labeled text documents `d_1, d_2, …, d_N` from the a
 After training, we run the trained model to classify the test documents into one of the classes in C. Below is a picture of the architecture of the module. The diagram below was constructed using draw.io 
 
 
-![design architecture](https://github.com/Forward-UIUC-2021F/guidelines/blob/main/template_diagrams/sample-design.png)
+![design architecture](https://github.com/Forward-UIUC-2023M/lorenzo-bujalil-openalex-award-data-integration/blob/main/data/research.drawio.png)
 
 
 
