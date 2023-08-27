@@ -6,7 +6,7 @@ This module is responsible for integrating award data into the openalex schema. 
 
 ## Setup
 
-Prerequisites: Python 3.9.6 | pip 21.2.4 | git-lfs
+Prerequisites: Python 3.9.6 | pip 21.2.4 | git-lfs | Cisco AnyConnect VPN
 
 Recommendation: Use Python Virtual Environment
 
@@ -14,11 +14,20 @@ Homebrew Installation: Git-LFS
 ```
 brew install git-lfs
 ```
+[Cisco AnyConnect VPN Installation](https://answers.uillinois.edu/illinois/98773)
 
 1. Ensure your system is setup and using the above prerequisites in order to install dependencies
-
-2. Clone repository to load scripts and large files. 
-2. Include a requirements.txt containing all of the python dependencies needed at your project's root (see this [link](https://stackoverflow.com/questions/31684375/automatically-create-requirements-txt) for instructions on how to create a requirements.txt). If you used a python virtual environment, use `pip freeze -l > requirements.txt` to generate your requirements.txt file. Make sure to include the below line somewhere in this section to tell users how to use your requirements.txt. 
+2. Clone repository to load scripts and large files (Ensure that you have the model files for the timeline project)
+3. Go to this [Google Drive](https://drive.google.com/drive/folders/1csESJHr97hR1JKJx2fGhnH_6oFrB6lcl?usp=drive_link) and install the xml file and place it within the source directory. This is the raw data file and can be used to load data.
+4. Now that you have all the files, run the following two commands inorder to install of the dependencies for this project.
+```
+pip3 install -r requirements.txt
+```
+```
+pip3 install -r find_timeline/requirements.txt
+```
+5. Connect to the VPN using your UIUC credentials.
+6. 
 ```
 pip install -r requirements.txt 
 ```
