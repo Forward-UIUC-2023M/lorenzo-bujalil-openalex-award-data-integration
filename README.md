@@ -322,7 +322,11 @@ In this section, please list all know issues, limitations, and possible areas fo
 
 ## Change log
 
-Summer 2023 First Iteration
+Summer 2023 First Iteration:
+* Week of 08/20/2023:
+    * Built README to document work completed over the Summer
+    * Developed a clear video to explain how algorithm works
+    * Wrote report to explain methodologies and research
 
 
 ## References 
