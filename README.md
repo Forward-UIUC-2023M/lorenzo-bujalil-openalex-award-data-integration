@@ -95,13 +95,9 @@ lorenzo-bujalil-openalex-award-data-integration/
             -- mapping.csv
             -- timeline.txt
         -- sqlite/
+            -- awards.db
         -- testing/
-    - trained_models/
-        -- best.model
-    - src/
-        -- create_train_data/
-            --- query_google.py 
-            --- extract_f
+            -- normal.txt
 ```
 
 
