@@ -117,6 +117,7 @@ which will be used in the similarity matching.
 4. Use a combination of similarity matching algorithms
 in order to come up with the name that is the most similar.
 ```
+* `find_timeline`: [Detailed Documentation](https://github.com/Forward-UIUC-2022F/jae-doo-timelinegenerator-wiki)
 
 ## Functional Design (Usage)
 
