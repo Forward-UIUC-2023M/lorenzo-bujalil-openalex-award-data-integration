@@ -6,12 +6,18 @@ This module is responsible for integrating award data into the openalex schema. 
 
 ## Setup
 
-Steps needed to install module's dependencies: 
+Prerequisites: Python 3.9.6 | pip 21.2.4 | git-lfs
 
-Prerequisites: Python 3.9.6 | pip 21.2.4
+Recommendation: Use Python Virtual Environment
 
-1. Ensure your system is setup and using the above prerequisites.
+Homebrew Installation: Git-LFS
+```
+brew install git-lfs
+```
 
+1. Ensure your system is setup and using the above prerequisites in order to install dependencies
+
+2. Clone repository to load scripts and large files. 
 2. Include a requirements.txt containing all of the python dependencies needed at your project's root (see this [link](https://stackoverflow.com/questions/31684375/automatically-create-requirements-txt) for instructions on how to create a requirements.txt). If you used a python virtual environment, use `pip freeze -l > requirements.txt` to generate your requirements.txt file. Make sure to include the below line somewhere in this section to tell users how to use your requirements.txt. 
 ```
 pip install -r requirements.txt 
