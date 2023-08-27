@@ -314,10 +314,11 @@ Then the resolve data file picks up the conformed data to begin the data matchin
 
 In this section, please list all know issues, limitations, and possible areas for future improvement. For example:
 
-* High false negative rate for document classier. 
-* Over 10 min run time for one page text.
-* Replace linear text search with a more efficient text indexing library (such as whoosh)
-* Include an extra label of "no class" if all confidence scores low. 
+* Author Timeline Generation run time varies between 5-7 minutes, which limits the data matching process
+* Investigate hashing names in order to reduce search time
+* OpenAlex API low rate limit prevents from rapid, consecutive data retrieval when building institution dimension
+* OpenAlex deleted authors remain in our database, which will cause for potentially many matches for one award
+* Investigate data deduplication to remove authors / OpenAlex will release new updated database
 
 
 ## Change log
