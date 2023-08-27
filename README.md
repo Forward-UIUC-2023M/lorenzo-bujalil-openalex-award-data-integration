@@ -47,7 +47,6 @@ python3 main_scripts/resolve_data.py
 
 ## Repository Structure   
 
-It is very important to also include an overall breakdown of your repo's file structure. Let people know what is in each directory and where to look if they need something specific. This will also let users know how your repo needs to structured so that your module can work properly
 
 ```
 lorenzo-bujalil-openalex-award-data-integration/
