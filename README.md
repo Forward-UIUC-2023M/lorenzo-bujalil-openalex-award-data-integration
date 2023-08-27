@@ -2,7 +2,7 @@
 
 ## Overview
 
-This module is responsible for integrating award data into the openalex schema. We are using the information found in the award data to be able to create relationships to other tables in order to finally build an awards table. The problem to solve in this case is of data consolidation, which is to join disparate datasets and ensure data standardization. This module aims to standardize award data and ensure appropriate record linkage.
+This module is responsible for integrating award data into the openalex schema. We are using the information found in the award data to be able to create relationships to other tables in order to finally build an awards table. The problem to solve in this case is of data consolidation, which is to join disparate datasets and ensure data standardization. We aim to use this module to standardize award data and ensure appropriate record linkage. In order to ensure, the appropriate integration of this data, I implemented a name matching algorithm to link records. In the rest of this documentation, I will explain how the algorithm works, and how to use it.
 
 ## Setup
 
