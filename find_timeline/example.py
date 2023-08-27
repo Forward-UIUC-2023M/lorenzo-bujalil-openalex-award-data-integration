@@ -19,7 +19,7 @@ def read_timeline(file_name):
 def main():
     names = ["martin d burke"]
     current_inst = "UNIVERSITY OF ILLINOIS AT URBANA-CHAMPAIGN"
-    email = "lbujalil@gmail.com"
+    email = "example@gmail.com"
     for name in names:
             
         timeline = generate_timeline(name, current_inst, email)

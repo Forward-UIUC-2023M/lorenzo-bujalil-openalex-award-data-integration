@@ -166,7 +166,7 @@
 #                 if name in existing_values:
 #                     print("Author already mapped!")
 #                     continue
-#                 # timeline = openalex_timeline(name,award_recipient,"lbujalil@gmail.com")
+#                 # timeline = openalex_timeline(name,award_recipient,"example@gmail.com")
 
 #                 # if timeline != None:
 #                 # f.write(f'{author} --------> {json.dumps(timeline)}')
@@ -220,7 +220,7 @@
 #     #             name = (response.json()).get("display_name")
 #     #             print(name,type(name))
 #     #             print(match[0],type(match[0]))
-#     #             timeline = openalex_timeline(match[0],name,"lbujalil@gmail.com")
+#     #             timeline = openalex_timeline(match[0],name,"example@gmail.com")
 #     #             if timeline != None:
 #     #                 f.write(f'{author} --------> {json.dumps(timeline)}')
 #     #                 break
@@ -357,7 +357,7 @@ def query_index(name_list,award_recipient):
     
     inst_list = []
     for i in initialized_names_list:
-        author_timeline = openalex_timeline(i,award_recipient,'lbujalil@gmail.com')
+        author_timeline = openalex_timeline(i,award_recipient,'example@gmail.com')
         if author_timeline:
             for author in author_timeline:
                 for inst in author_timeline[author]:
@@ -512,7 +512,7 @@ if __name__ == "__main__":
     #             name = (response.json()).get("display_name")
     #             print(name,type(name))
     #             print(match[0],type(match[0]))
-    #             timeline = openalex_timeline(match[0],name,"lbujalil@gmail.com")
+    #             timeline = openalex_timeline(match[0],name,"example@gmail.com")
     #             if timeline != None:
     #                 f.write(f'{author} --------> {json.dumps(timeline)}')
     #                 break
