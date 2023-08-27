@@ -45,64 +45,65 @@ python3 main_scripts/resolve_data.py
 ```
 7. You are now setup and can use the module.
 
-   
+## Repository Structure   
 
 It is very important to also include an overall breakdown of your repo's file structure. Let people know what is in each directory and where to look if they need something specific. This will also let users know how your repo needs to structured so that your module can work properly
 
 ```
-firstname-lastname-repo-name/
+lorenzo-bujalil-openalex-award-data-integration/
     - requirements.txt
+    - source/
+        -- awards-20230530.xml
+        -- awards-20230530.xsd
+    - main_scripts/
+        -- conform_authors.py
+        -- conform_awards.py
+        -- load_raw_awards.py
+        -- resolve_data.py
+    - helper_scripts/
+        -- connect_to_postgres.py
+        -- normalize.py
+        -- query_sqlite_db.py
+        -- xml_to_sqlite.py
+    - find_timeline/
+        -- RBERT/
+        -- timeline/
+        -- example.py
+        -- input_ner.txt
+        -- output_ner.txt
+        -- requirements.txt
+        -- timeline.json
     - data/ 
-        -- eval_articles.csv
-        -- train_articles.csv
-        -- Keywords_Springer.csv
+        -- conformed/
+            -- authors/
+               -- insert_names.csv
+               -- visited_cleaned_names.csv
+            -- awards/
+               -- institutions/
+                   -- raw_data.txt
+               -- clean_authors_parition.csv
+               -- clean_authors.csv
+               -- clean_authors.txt
+               -- mapped.csv
+               -- raw_data.csv
+               -- raw_data.txt
+               -- remaining_authors.txt
+        -- mapping/
+            -- demo.txt
+            -- mapped_authors.txt
+            -- mapping_null.csv
+            -- mapping.csv
+            -- timeline.txt
+        -- sqlite/
+        -- testing/
     - trained_models/
         -- best.model
     - src/
         -- create_train_data/
             --- query_google.py 
-            --- extract_fInclude a brief summary of your module here. For example: this module is responsible for classifying pieces of text using a neural network on top of BERT. 
-
-Note: if this is a second or latter iteration of a module, you may reuse the old iteration's README as a starting point (you should still update it). 
-
-## Setup
-
-List the steps needed to install your module's dependencies: 
-
-1. Include what version of Python (e.g. 3.8.12) and what version of pip (e.g. 21.3.1) you used when running your module. If you do not specify these, other users may run into several problems when trying to install dependencies!
-
-2. Include a requirements.txt containing all of the python dependencies needed at your project's root (see this [link](https://stackoverflow.com/questions/31684375/automatically-create-requirements-txt) for instructions on how to create a requirements.txt). If you used a python virtual environment, use `pip freeze -l > requirements.txt` to generate your requirements.txt file. Make sure to include the below line somewhere in this section to tell users how to use your requirements.txt. 
-```
-pip install -r requirements.txt 
+            --- extract_f
 ```
 
-3. Additionally, list any other setup required to run your module such as installing MySQL or downloading data files that you module relies on. 
-
-4. Include instructions on how to run any tests you have written to verify your module is working properly. 
-
-It is very important to also include an overall breakdown of your repo's file structure. Let people know what is in each directory and where to look if they need something specific. This will also let users know how your repo needs to structured so that your module can work properly
-
-```
-firstname-lastname-repo-name/
-    - requirements.txt
-    - data/ 
-        -- eval_articles.csv
-        -- train_articles.csv
-        -- Keywords_Springer.csv
-    - trained_models/
-        -- best.model
-    - src/
-        -- create_train_data/
-            --- query_google.py 
-            --- extract_from_url.py
-        -- train.py
-        -- classify_articles/
-            --- main.py
-            --- utils.py
-   - tests/
-       -- data_preprocess_test.py
-       -- eval_pretrained_model_test.py
-```
 
 Include text description of all the important files / componenets in your repo. 
 * `src/create_train_data/`: fetches and pre-processes articles
