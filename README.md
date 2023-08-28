@@ -293,7 +293,7 @@ for idx,author in enumerate(raw_data): # Iterate through the raw data and run th
 
 ## Demo video
 
-Include a link to your demo video, which you upload to our shared Google Drive folder (see the instructions for code submission).
+[Demo Link](https://drive.google.com/file/d/1EDOWnl8kNMRkzbDngBH3n6w2xsh5F1Tl/view?usp=drive_link)
 
 ## Algorithmic Design 
 
