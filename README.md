@@ -333,5 +333,11 @@ Summer 2023 First Iteration:
 ## References 
 include links related to datasets and papers describing any of the methodologies models you used. E.g. 
 
-* Dataset: https://www.kaggle.com/Cornell-University/arxiv 
-* BERT paper: Jacob Devlin, Ming-Wei Chang, Kenton Lee, & Kristina Toutanova. (2019). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding.
+* https://github.com/Forward-UIUC-2022F/jae-doo-timelinegenerator-wiki
+* https://www.freecodecamp.org/news/fuzzy-string-matching-with-postgresql/
+* https://towardsdatascience.com/python-tutorial-fuzzy-name-matching-algorithms-7a6f43322cc5
+* https://towardsdatascience.com/fuzzy-matching-at-scale-84f2bfd0c536
+* https://medium.com/bcggamma/an-ensemble-approach-to-large-scale-fuzzy-name-matching-b3e3fa124e3c
+* https://towardsdatascience.com/fuzzy-matching-people-names-6e738d6b8fe
+* https://medium.com/compass-true-north/fuzzy-name-matching-dd7593754f19
+* https://www.crunchydata.com/blog/fuzzy-name-matching-in-postgresql
