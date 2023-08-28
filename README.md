@@ -312,8 +312,6 @@ Then the resolve data file picks up the conformed data to begin the data matchin
 
 ## Issues and Future Work
 
-In this section, please list all know issues, limitations, and possible areas for future improvement. For example:
-
 * Author Timeline Generation run time varies between 5-7 minutes, which limits the data matching process
 * Investigate hashing names in order to reduce search time
 * OpenAlex API low rate limit prevents from rapid, consecutive data retrieval when building institution dimension
