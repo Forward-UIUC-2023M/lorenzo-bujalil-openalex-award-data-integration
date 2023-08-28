@@ -329,7 +329,6 @@ Summer 2023 First Iteration:
 
 
 ## References 
-include links related to datasets and papers describing any of the methodologies models you used. E.g. 
 
 * https://github.com/Forward-UIUC-2022F/jae-doo-timelinegenerator-wiki
 * https://www.freecodecamp.org/news/fuzzy-string-matching-with-postgresql/
